@@ -24,7 +24,7 @@ import { Input } from "@/components/ui/input"
 import { Loader2 } from "lucide-react";
 import { signInSchema } from "@/schemas/signInSchema";
 import { signIn } from "next-auth/react";
-export default function page() {
+export default function Page() {
   const { toast } = useToast();
   const router = useRouter();
 
